@@ -1,0 +1,12 @@
+Test Push file to remote repo from working directory
+create file in local git project folder "test_file_push" using notepad++ and save it
+C:\Users\User\my_git_project>dir will list all the files
+C:\Users\User\my_git_project>git status
+
+add the file >git add filename -- This will add the file to staging before commting to local repository
+
+commit the file to local repo > git commit -m "put a meaningful message"
+
+git status
+
+push the file to remote repo/hub >git push  -u origin master
